@@ -1,10 +1,10 @@
 {
-  "vendor": "vtex",
+  "vendor": "uscertification09rona",
   "name": "countdown",
-  "version": "0.0.1",
+  "version": "1.3.1",
   "title": "Countdown",
   "description": "Countdown component",
-  "defaultLocale": "pt-BR",
+  "defaultLocale": "en-CA",
   "builders": {
     "messages": "1.x",
     "store": "0.x",
@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "vtex.styleguide": "9.x",
-    "vtex.css-handles": "0.x"
+    "vtex.css-handles": "0.x",
+    "vtex.search-graphql": "0.x",
+    "vtex.product-context": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
